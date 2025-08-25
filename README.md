@@ -62,6 +62,15 @@ SEW | JavaScript Basics
 - Example:
   - const mult = generate('*')
   - console.log(mult(3, 4)) // the value is 12 printed on the console
+ 
+## User Story 7
+*For a calendar app, I want to implement a general function that extracts all dates from a string.*
+
+### Acceptance Criteria
+-A function is available that takes a string as a parameter.
+- A regular expression is used to extract all dates matching the DD.MM.YYYY format.
+- The function returns an array containing all dates (as strings).
+
 
 ## Skill(s)
 - [JavaScript Basics 4th Grade](https://my.skilldisplay.eu/en/skill/2993/0)
