@@ -29,8 +29,10 @@ SEW | JavaScript Basics
 *As a content creator I need an easy to use system to sort an array in lexical order, so that I can created sorted list much faster.*
 
 ### Acceptance Criteria
-- A function that takes an array of string as a parameter is available.
-- The result is an array consisting of the same strings as the input array, only sorted in lexical order
+- A function is available with two parameters: an array of strings and a boolean flag for the sort order.
+- The parameter for the sort order is optional and defaults to ascending.
+- The result is an array consisting of the same strings as the input array, only sorted in **lexical order**.
+- If the first parameter is not an array, the function throws a TypeError.
 - Hint: take a look at the string method: [localeCompare()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare)
 
 ## User Story 4
