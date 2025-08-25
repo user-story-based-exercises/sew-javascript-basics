@@ -1,5 +1,8 @@
 SEW | JavaScript Basics
 
+### General Acceptance Criteria for all User Stories
+- Implement proper error handling.
+
 ## User Story 1
 *As a bank employee, I want to use a coin converter app, so that I can save time and serve more customers.*
 
