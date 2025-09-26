@@ -7,12 +7,12 @@ SEW | JavaScript Basics
 *As a bank employee, I want to use a coin converter app, so that I can save time and serve more customers.*
 
 ### Acceptance Criteria
-- The function `convert(amount)` is available, which converts a given amount of cent into as few as possible coins
-- The result is a **`Map`**, where the keys are coin values and the values are the quantity of each coin, e.g.:
+- The function `convert(amount)` is available, which converts a given amount of cent into as few as possible coins (currency: Euro).
+- The result is a **`Map`**, where the keys are coin values and the values are the quantity of each coin. Example:
   ```js
   Map(5) { 100 => 1, 50 => 1, 20 => 2, 5 => 1, 2 => 2 }
   ```
-- Only used values are represented within the resulting object
+- Only used values are represented within the resulting Map.
 
 ## User Story 2
 *As a security expert I want to encrypt and decrypt strings, so that I can have a secure conversation with my counterpart.*
