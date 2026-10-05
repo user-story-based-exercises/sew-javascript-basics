@@ -13,6 +13,7 @@ SEW | JavaScript Basics
   Map(5) { 100 => 1, 50 => 1, 20 => 2, 5 => 1, 2 => 2 }
   ```
 - Only used values are represented within the resulting Map.
+- The function is called several times, including for edge and special cases.
 
 ## User Story 2
 *As a security expert I want to encrypt and decrypt strings, so that I can have a secure conversation with my counterpart.*
@@ -40,7 +41,8 @@ SEW | JavaScript Basics
 
 ### Acceptance Criteria
 - A function that takes an array of numbers as a parameter is available.
-- The result is an array consisting only of even numbers
+- The result is an array consisting only of even numbers.
+- The code is as short as possible (hint: use the filter function).
 
 ## User Story 5
 *As a software tester I want to test certain functions, so that I can be sure that they produce the right result.*
